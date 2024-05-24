@@ -23,9 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-remains.excalidraw
-bugs.excalidraw
-ideas.excalidraw
-vite.config.js
-postcss.config.js
+*.excalidraw
+*.config.js
 package-lock.json
