@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.usrname{
+    background-color: #2322222e;
+    backdrop-filter: blur(10px);
+}

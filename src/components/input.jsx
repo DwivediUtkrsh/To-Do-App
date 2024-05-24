@@ -2,7 +2,7 @@ import { useState } from "react"
 import Do from "./doitem";
 import Done from "./completed";
 
-export default function Input(){
+export default function Input(){ 
     // const [todo, setTodo] = useState("");
     const [todo, setTodo] = useState({name: "", done:"false"}); 
     const [todos, setTodos] = useState([]);
