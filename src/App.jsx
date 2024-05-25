@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Input from './components/input'
 import Nav from './components/nav-bar'
 import Done from './components/completed'
-import UsrName from './components/usrname'
+import Usrdetails from './components/usr-details'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
       <div className='bg-gray-200  h-[2.8vw] w-[16vw] flex items-center justify-center rounded-[0.8vw] absolute bottom-2 left-2 pleaseAdd'>
          <Done />
       </div>
-      <UsrName />
+      {/* <Usrdetails />   */}
     </div>
   )
 }
