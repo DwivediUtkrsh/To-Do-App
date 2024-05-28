@@ -26,7 +26,8 @@ return (
          </div>
          <form onSubmit={handleClick}>
             <div className="form items-centre justify-center flex gap-1">
-            <i class="ri-add-circle-fill"></i> <input className="bg-[#CEE5F2] pl-1 placeholder:text-[green] outline-none" onChange={(e) => setTodo({name: e.target.value})} value={todo.name}  type="text" autoFocus placeholder="Add Task" />
+            <i className="ri-add-circle-fill"></i> <input className="bg-[#CEE5F2] pl-1 placeholder:text-[green] outline-none"
+             onChange={(e) => setTodo({name: e.target.value})} value={todo.name} type="text" placeholder="Add Task" />
             </div>
         <button className="m-[2vw] p-[1vw] border-[#6f97ae] rounded-xl border-4 absolute right-[0vw] bottom-[0vw]" onClick={reset} type="reset">Remove all Tasks</button>
     </form>

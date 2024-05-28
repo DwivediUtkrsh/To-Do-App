@@ -21,7 +21,6 @@ export default function Do({item, todos, setTodos}){
                 </div>
                 
                 <button id="cancel" className="bg-yellow-200 p-2 flex justify-center items-center rounded-[0.3vw]" onClick={() => handleDelete(item)}>X</button>
-                {/* {console.log(item.length)} */}
             </div>
         )
     }
