@@ -11,7 +11,7 @@ export default function Done(todos){
               <p>Please add some tasks for the day</p>
             </div>
             <div className="indicate absolute bottom-[5vw] bg-white left-[19vw] w-[60%] flex items-center justify-center rounded-[1vw]">
-                click here to close
+                Click here to close
             </div>
         </div>
         

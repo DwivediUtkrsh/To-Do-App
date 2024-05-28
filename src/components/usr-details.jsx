@@ -5,7 +5,7 @@ export default function Usrdetails(){
     function handleUserdetails(e){
         e.preventDefault();
         setUsrName(""); 
-        console.log(usrName)
+        return usrName
     }
     
     return (
