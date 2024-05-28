@@ -24,5 +24,4 @@ dist-ssr
 *.sw?
 
 *.excalidraw
-*.config.js
 package-lock.json

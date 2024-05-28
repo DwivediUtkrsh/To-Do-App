@@ -1,4 +1,4 @@
-import hamster from '/home/xenon/Work/VS Code/Coding/CS/React/doIt/doIt/src/images/hamster.jpg'
+import hamster from '../images/hamster.jpg'
 import Usrdetails from './usr-details'
 export default function PfpName(){
     

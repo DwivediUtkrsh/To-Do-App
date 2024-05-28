@@ -1,5 +1,5 @@
 import Input from "./input"
-import arrows from '/home/xenon/Work/VS Code/Coding/CS/React/doIt/doIt/src/images/arrows.png'
+import arrows from '../images/arrows.png'
 export default function Done(todos){
     function dis(){
         document.querySelector(".pleaseAdd").style.display = "none";
