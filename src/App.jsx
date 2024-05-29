@@ -3,6 +3,7 @@ import Input from "./components/input";
 import Nav from "./components/nav-bar";
 import Done from "./components/completed";
 import Usrdetails from "./components/usr-details";
+import Menulist from "./components/menuList";
 
 function App() {
   // defining state variable in parent component to be passed down to child as props
@@ -22,6 +23,7 @@ function App() {
         <Done />
       </div>
       <Usrdetails usrName={usrName} onUsrNameInput={handleUsrNameInput} />
+      <Menulist />
     </div>
   );
 }

@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    user-select: none;
+}
 
 .usrname{
     background-color: #2322222e;
