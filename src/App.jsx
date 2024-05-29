@@ -4,6 +4,7 @@ import Nav from "./components/nav-bar";
 import Done from "./components/completed";
 import Usrdetails from "./components/usr-details";
 import Menulist from "./components/menuList";
+import RandomQoutes from "./components/qoutes";
 
 function App() {
   // defining state variable in parent component to be passed down to child as props
@@ -24,6 +25,7 @@ function App() {
       </div>
       <Usrdetails usrName={usrName} onUsrNameInput={handleUsrNameInput} />
       <Menulist />
+      <RandomQoutes />
     </div>
   );
 }
