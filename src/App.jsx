@@ -10,6 +10,7 @@ function App() {
   // defining a handler since passing setState as a prop is not advised
   const handleUsrNameInput = (event) => {
     setUsrName(event.target.value);
+
   };
   return (
     <div className="flex w-[100%] bg-[#CEE5F2] h-[100vh]">
