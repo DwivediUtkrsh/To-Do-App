@@ -18,6 +18,7 @@ export default function Usrdetails({ usrName, onUsrNameInput }) {
           value={usrName}
           type="text"
           placeholder="Your Name"
+          autoFocus
         />
       </form>
     </div>
