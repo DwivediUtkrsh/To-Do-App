@@ -1,4 +1,3 @@
-import styles from "./usrname.module.css";
 
 export default function Usrdetails({ usrName, onUsrNameInput }) {
   function handleSubmit(e) {

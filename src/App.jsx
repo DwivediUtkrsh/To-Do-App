@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Input from "./components/input";
-import Nav from "./components/nav-bar";
+import Bar from "./components/SideBar";
 import Done from "./components/completed";
 import Usrdetails from "./components/usr-details";
 import Menulist from "./components/menuList";
@@ -16,7 +16,7 @@ function App() {
   };
   return (
     <div className="flex w-[100%] bg-[#CEE5F2] h-[100vh]">
-      <Nav usrName={usrName} />
+      <Bar usrName={usrName} />
       <div id="container" className="w-[100%] flex pb-[1vw]">
         <Input />
       </div>
