@@ -4,7 +4,15 @@ export default function Usrdetails({ usrName, onUsrNameInput }) {
   function handleSubmit(e) {
     e.preventDefault();
     document.querySelector(".usrname").style.display = "none"
+    usrName = usrName.charAt(0).toUpperCase() + usrName.slice(1, usrName.length)
     document.querySelector(".user-nameP").textContent = usrName;
+    document.querySelector(".userName-menuBar").textContent = usrName;
+    if(usrName.length > 0){
+      document.querySelector(".arrow").style.display = "initial"
+    }
+    else if(usrName.length <= 0){
+      document.querySelector(".arrow").style.display = "none"
+    }
   }
 
   return (
