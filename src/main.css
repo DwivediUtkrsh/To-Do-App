@@ -9,3 +9,11 @@
     background-color: #2322222e;
     backdrop-filter: blur(10px);
 }
+.half{
+    width: 3.4vw;
+    transition: all 1s;
+}
+.full{
+    width: 15vw;
+    transition: all 1s;
+}

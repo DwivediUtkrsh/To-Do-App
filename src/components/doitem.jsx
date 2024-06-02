@@ -14,7 +14,7 @@ export default function Do({item, todos, setTodos}){
     }else{
         return (
             <div id="todo" className="flex gap-10 m-2 ">
-                <div className="bg-red-300 p-2 min-w-[10vw] flex justify-center him items-center rounded-xl select-none">
+                <div className="bg-red-300 p-2 min-w-[10vw] flex justify-center him items-center rounded-xl select-none task">
                     <span className={line} onClick={() => handleStrike(item.name)} id={item}>
                     {item.name}
                     </span>
