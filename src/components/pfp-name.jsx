@@ -7,14 +7,23 @@ export default function PfpName(usrName) {
     if(sidebarDisplay == 1){
     sidebar.classList.add("half")
     sidebar.classList.remove("full")
+    document.querySelector(".Tasks-P").classList.add("text-[#ACCBE1]")
+    document.querySelector(".Upcoming-P").classList.add("text-[#ACCBE1]")
+    document.querySelector(".Inbox-P").classList.add("text-[#ACCBE1]")
+    document.querySelector(".Calendar-P").classList.add("text-[#ACCBE1]")
+    document.querySelector(".user-nameP").classList.add("text-[#ACCBE1]")
     document.querySelector(".pleaseAdd").style.display = "none";
     sidebarDisplay = 0;
     }else if(sidebarDisplay == 0){
       sidebar.classList.add("full")
       sidebar.classList.remove("half")
+      document.querySelector(".Tasks-P").classList.remove("text-[#ACCBE1]")
+      document.querySelector(".Upcoming-P").classList.remove("text-[#ACCBE1]")
+      document.querySelector(".Inbox-P").classList.remove("text-[#ACCBE1]")
+      document.querySelector(".Calendar-P").classList.remove("text-[#ACCBE1]")
+      document.querySelector(".user-nameP").classList.remove("text-[#ACCBE1]")
       sidebarDisplay = 1;
     }
-    
   }
   var displaymenuList = 0 ;
   function displayMenuList(){
@@ -37,7 +46,7 @@ export default function PfpName(usrName) {
       <div className="pfp fixed w-10 rounded-full object-contain left-2 border-[#6f97ae] border-[0.2vw] bg-[#ACCBE1] p-[0.15vw]" onClick={sidebarWidth}>
         <img className="h-[100%] w-[100%] rounded-full" src={hamster} alt="" />
       </div>
-      <div className="user-name relative left-11 text-[rgb(91,131,154)] font-bold flex h-[1.5vw] w-[6vw]  text-xl">
+      <div className="user-name relative left-11 text-[rgb(91,131,154)] font-bold flex h-[1.5vw] w-[6vw] text-xl">
         <p className="user-nameP mr-[0.2vw]">User</p>
         <div className="arrow hidden h-[2vw] w-[2vw]" onClick={displayMenuList}><i className="ri-arrow-drop-down-line text-[1.5vw] h-[1vw] relative"></i>
         <i className="ri-arrow-drop-up-line text-[1.5vw] h-[1vw] relative hidden"></i></div>

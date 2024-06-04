@@ -14,6 +14,18 @@
     transition: all 1s;
 }
 .full{
-    width: 15vw;
+    width: 12vw;
     transition: all 1s;
+}
+.Tasks-P{
+    transition: all ease 0.8s;
+}.Calendar-P{
+    transition: all ease 0.8s;
+}.Inbox-P{
+    transition: all ease 0.8s;
+}.Upcoming-P{
+    transition: all ease 0.8s;
+}
+.user-nameP{
+    transition: all ease 0.8s;
 }

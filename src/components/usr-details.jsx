@@ -15,7 +15,7 @@ export default function Usrdetails({ usrName, onUsrNameInput }) {
   }
 
   return (
-    <div className="usrname absolute flex-col left-[40vw] top-[20vw] flex items-center justify-between pt-4 pb-24 w-[27%] h-[12vw] rounded-2xl">
+    <div className="usrname absolute z-50 flex-col left-[40vw] top-[20vw] flex items-center justify-between pt-4 pb-24 w-[27%] h-[12vw] rounded-2xl">
         <p className="text-[1vw]">Dear User, Please enter</p>
       <form onSubmit={handleSubmit}>
         <input
